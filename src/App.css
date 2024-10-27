@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.container{
+  border: 1px solid white;
+  min-width: 400px;
+  max-width: 1000px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 100px rgb(137, 133, 133);
+  padding: 25px;
+}
+
+.todo{
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.todo::placeholder{
+  color: white;
+  padding: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.btn1{
+  margin-right: 50px;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: black;
+  color: white
+}
